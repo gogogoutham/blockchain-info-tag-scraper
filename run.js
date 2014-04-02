@@ -11,8 +11,8 @@ var pgloader = require(__dirname + "/lib/pgloader.js"),
 // Configuration
 var dbConfFile = __dirname + "/.pgpass",
     dataDir = __dirname + "/data",
-    outTable = 'blockchain_info_tag',
-    outTableAll = 'blockchain_info_tag_all';
+    outTable = 'tag',
+    outTableAll = 'tag_all';
 
 // Establish time
 var runTime = new Date(),
