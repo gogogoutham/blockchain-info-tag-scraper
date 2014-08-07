@@ -1,4 +1,4 @@
-CREATE TABLE blockchain_info_tag (
+CREATE TABLE tag (
     address VARCHAR(50),
     tag VARCHAR(50),
     link TEXT,
@@ -6,7 +6,7 @@ CREATE TABLE blockchain_info_tag (
     time TIMESTAMP WITH TIME ZONE, 
     PRIMARY KEY(address));
 
-CREATE TABLE blockchain_info_tag_all (
+CREATE TABLE tag_all (
     address CHAR(64),
     tag VARCHAR(50),
     link TEXT,
